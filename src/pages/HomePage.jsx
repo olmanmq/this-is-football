@@ -68,6 +68,15 @@ export default function HomePage() {
       selector: (row) => row.country,
       sortable: true,
     },
+    {
+      name: "Teams",
+      selector: (row) => (
+        <a href={`/Standings/${row.id}`} className="btn btn-primary">
+          View Teams
+        </a>
+      ),
+      sortable: false,
+    },
   ];
 
   return (

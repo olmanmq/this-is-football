@@ -1,4 +1,4 @@
-export default function HomePage() {
+export default function Teams() {
   return (
     <div>
       <h1>THIS IS FOOTBALL</h1>

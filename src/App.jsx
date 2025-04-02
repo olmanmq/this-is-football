@@ -1,11 +1,14 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import HomePage from './pages/HomePage'
-import Leagues from './pages/Leagues'
+import Standings from './pages/Standings'
+import Teams from './pages/Teams'
+
 
 const routes = [
   { path: '/', element: <HomePage /> },
-  { path: '/Leagues', element: <Leagues /> },
+  { path: '/Standings/:leagueId', element: <Standings /> },
+  { path: '/Teams', element: <Teams /> },
 ]
 
 const router = createBrowserRouter(routes);

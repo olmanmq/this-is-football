@@ -51,8 +51,8 @@ const Layout = ({ children }) => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/leagues">
-                  Leagues
+                <a className="nav-link" href="/Standings">
+                  Standings
                 </a>
               </li>
             </ul>
