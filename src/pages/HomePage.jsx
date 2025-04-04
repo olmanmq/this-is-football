@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import DataTable from "react-data-table-component";
+import leaguesData from "../data/leagues.json"; // Import the leagues.json file
 
 // Import league logos
 import premierLeagueLogo from "../assets/images/premier-league.png";
@@ -16,29 +16,15 @@ export default function HomePage() {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    const config = {
-      method: "get",
-      url: "https://v3.football.api-sports.io/leagues",
-      headers: {
-        "x-rapidapi-key": "9ea5e5ef8d94d9a2d45e6c30b216d5fa",
-        "x-rapidapi-host": "v3.football.api-sports.io",
-      },
-    };
-
-    axios(config)
-      .then((response) => {
-        const leaguesData = response.data.response.map((league) => ({
-          id: league.league.id,
-          name: league.league.name,
-          country: league.country.name,
-          logo: league.league.logo,
-        }));
-        setLeagues(leaguesData);
-        setFilteredLeagues(leaguesData);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
+    // Use the leagues.json file instead of fetching from the API
+    const leaguesFromFile = leaguesData.map((league) => ({
+      id: league.league.id,
+      name: league.league.name,
+      country: league.country.name,
+      logo: league.league.logo,
+    }));
+    setLeagues(leaguesFromFile);
+    setFilteredLeagues(leaguesFromFile);
   }, []);
 
   useEffect(() => {

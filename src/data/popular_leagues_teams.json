@@ -1,0 +1,3162 @@
+[
+  {
+    "team": {
+      "id": 79,
+      "name": "Lille",
+      "code": "LIL",
+      "country": "France",
+      "founded": 1944,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "venue": {
+      "id": 19207,
+      "name": "Decathlon Arena – Stade Pierre-Mauroy",
+      "address": "261, Boulevard de Tournai, l&apos;Hôtel de Ville",
+      "city": "Villeneuve d&apos;Ascq",
+      "capacity": 50083,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/19207.png"
+    }
+  },
+  {
+    "team": {
+      "id": 80,
+      "name": "Lyon",
+      "code": "LYO",
+      "country": "France",
+      "founded": 1950,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/80.png"
+    },
+    "venue": {
+      "id": 666,
+      "name": "Groupama Stadium",
+      "address": "Chemin du Montout",
+      "city": "Décines-Charpieu",
+      "capacity": 61556,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/666.png"
+    }
+  },
+  {
+    "team": {
+      "id": 81,
+      "name": "Marseille",
+      "code": "MAR",
+      "country": "France",
+      "founded": 1899,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+    },
+    "venue": {
+      "id": 12678,
+      "name": "Stade Orange Vélodrome",
+      "address": "3, boulevard Michelet",
+      "city": "Marseille",
+      "capacity": 67394,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/12678.png"
+    }
+  },
+  {
+    "team": {
+      "id": 82,
+      "name": "Montpellier",
+      "code": "MON",
+      "country": "France",
+      "founded": 1974,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/82.png"
+    },
+    "venue": {
+      "id": 20107,
+      "name": "Stade de la Mosson-Mondial 98",
+      "address": "Avenue de Heidelberg",
+      "city": "Montpellier",
+      "capacity": 32939,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20107.png"
+    }
+  },
+  {
+    "team": {
+      "id": 83,
+      "name": "Nantes",
+      "code": "NAN",
+      "country": "France",
+      "founded": 1943,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/83.png"
+    },
+    "venue": {
+      "id": 662,
+      "name": "Stade de la Beaujoire - Louis Fonteneau",
+      "address": "5, boulevard de la Beaujoire",
+      "city": "Nantes",
+      "capacity": 38285,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/662.png"
+    }
+  },
+  {
+    "team": {
+      "id": 84,
+      "name": "Nice",
+      "code": "NIC",
+      "country": "France",
+      "founded": 1904,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/84.png"
+    },
+    "venue": {
+      "id": 663,
+      "name": "Allianz Riviera",
+      "address": "Boulevard des Jardiniers",
+      "city": "Nice",
+      "capacity": 35624,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/663.png"
+    }
+  },
+  {
+    "team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "code": "PAR",
+      "country": "France",
+      "founded": 1970,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue": {
+      "id": 671,
+      "name": "Parc des Princes",
+      "address": "24, rue du Commandant Guilbaud",
+      "city": "Paris",
+      "capacity": 47929,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/671.png"
+    }
+  },
+  {
+    "team": {
+      "id": 91,
+      "name": "Monaco",
+      "code": "MON",
+      "country": "France",
+      "founded": 1919,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "venue": {
+      "id": 20470,
+      "name": "Stade Louis-II",
+      "address": "7, avenue des Castelans",
+      "city": "Monaco",
+      "capacity": 18523,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20470.png"
+    }
+  },
+  {
+    "team": {
+      "id": 93,
+      "name": "Reims",
+      "code": "REI",
+      "country": "France",
+      "founded": 1909,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/93.png"
+    },
+    "venue": {
+      "id": 674,
+      "name": "Stade Auguste-Delaune II",
+      "address": "33, Chaussée Bocquaine",
+      "city": "Reims",
+      "capacity": 21684,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/674.png"
+    }
+  },
+  {
+    "team": {
+      "id": 94,
+      "name": "Rennes",
+      "code": "REN",
+      "country": "France",
+      "founded": 1901,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/94.png"
+    },
+    "venue": {
+      "id": 680,
+      "name": "Roazhon Park",
+      "address": "111, route de Lorient",
+      "city": "Rennes",
+      "capacity": 31127,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/680.png"
+    }
+  },
+  {
+    "team": {
+      "id": 95,
+      "name": "Strasbourg",
+      "code": "STR",
+      "country": "France",
+      "founded": 1906,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/95.png"
+    },
+    "venue": {
+      "id": 681,
+      "name": "Stade de la Meinau",
+      "address": "12, rue de l&apos;Extenwoerth",
+      "city": "Strasbourg",
+      "capacity": 26109,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/681.png"
+    }
+  },
+  {
+    "team": {
+      "id": 96,
+      "name": "Toulouse",
+      "code": "TOU",
+      "country": "France",
+      "founded": 1937,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/96.png"
+    },
+    "venue": {
+      "id": 682,
+      "name": "Stadium de Toulouse",
+      "address": "1, allée Gabriel Biènés",
+      "city": "Toulouse",
+      "capacity": 33150,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/682.png"
+    }
+  },
+  {
+    "team": {
+      "id": 97,
+      "name": "Lorient",
+      "code": "LOR",
+      "country": "France",
+      "founded": 1926,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/97.png"
+    },
+    "venue": {
+      "id": 21430,
+      "name": "Stade du Moustoir - Yves Allainmat",
+      "address": "11, rue Jean Le Coutaller",
+      "city": "Lorient",
+      "capacity": 18970,
+      "surface": "artificial turf",
+      "image": "https://media.api-sports.io/football/venues/21430.png"
+    }
+  },
+  {
+    "team": {
+      "id": 99,
+      "name": "Clermont Foot",
+      "code": "CLE",
+      "country": "France",
+      "founded": 1990,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/99.png"
+    },
+    "venue": {
+      "id": 21429,
+      "name": "Stade Gabriel-Montpied",
+      "address": "Rue Adrien-Mabut",
+      "city": "Clermont-Ferrand",
+      "capacity": 13576,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/21429.png"
+    }
+  },
+  {
+    "team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "code": "BRE",
+      "country": "France",
+      "founded": 1950,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+    },
+    "venue": {
+      "id": 641,
+      "name": "Stade Francis-Le Blé",
+      "address": "26, rue de Quimper",
+      "city": "Brest",
+      "capacity": 15931,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/641.png"
+    }
+  },
+  {
+    "team": {
+      "id": 111,
+      "name": "LE Havre",
+      "code": "HAV",
+      "country": "France",
+      "founded": 1872,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/111.png"
+    },
+    "venue": {
+      "id": 652,
+      "name": "Stade Océane",
+      "address": "Boulevard de Léningrad",
+      "city": "Le Havre",
+      "capacity": 25178,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/652.png"
+    }
+  },
+  {
+    "team": {
+      "id": 112,
+      "name": "Metz",
+      "code": "MET",
+      "country": "France",
+      "founded": 1932,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/112.png"
+    },
+    "venue": {
+      "id": 658,
+      "name": "Stade Saint-Symphorien",
+      "address": "3, allée Saint-Symphorien",
+      "city": "Longeville-lès-Metz",
+      "capacity": 30000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/658.png"
+    }
+  },
+  {
+    "team": {
+      "id": 116,
+      "name": "Lens",
+      "code": "LEN",
+      "country": "France",
+      "founded": 1906,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/116.png"
+    },
+    "venue": {
+      "id": 654,
+      "name": "Stade Bollaert-Delelis",
+      "address": "83, rue Maurice-Carton",
+      "city": "Lens",
+      "capacity": 41233,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/654.png"
+    }
+  },
+  {
+    "team": {
+      "id": 1063,
+      "name": "Saint Etienne",
+      "code": "ETI",
+      "country": "France",
+      "founded": 1920,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/1063.png"
+    },
+    "venue": {
+      "id": 676,
+      "name": "Stade Geoffroy-Guichard",
+      "address": "14, rue Pierre et Paul Guichard",
+      "city": "Saint-Ètienne",
+      "capacity": 41965,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/676.png"
+    }
+  },
+  {
+    "team": {
+      "id": 259,
+      "name": "Lommel United",
+      "code": "KVS",
+      "country": "Belgium",
+      "founded": 1937,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/259.png"
+    },
+    "venue": {
+      "id": 20335,
+      "name": "Soeverein Stadion",
+      "address": "Speelpleinstraat 20",
+      "city": "Lommel",
+      "capacity": 12911,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20335.png"
+    }
+  },
+  {
+    "team": {
+      "id": 260,
+      "name": "OH Leuven",
+      "code": "LEU",
+      "country": "Belgium",
+      "founded": 1957,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/260.png"
+    },
+    "venue": {
+      "id": 186,
+      "name": "King Power at Den Dreef Stadion",
+      "address": "Kardinaal Mercierlaan 46",
+      "city": "Heverlee",
+      "capacity": 12500,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/186.png"
+    }
+  },
+  {
+    "team": {
+      "id": 261,
+      "name": "KVC Westerlo",
+      "code": "WES",
+      "country": "Belgium",
+      "founded": 1933,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/261.png"
+    },
+    "venue": {
+      "id": 195,
+      "name": "Het Kuipje",
+      "address": "De Merodedreef 189",
+      "city": "Westerlo",
+      "capacity": 8035,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/195.png"
+    }
+  },
+  {
+    "team": {
+      "id": 266,
+      "name": "KV Mechelen",
+      "code": "MEC",
+      "country": "Belgium",
+      "founded": 1904,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/266.png"
+    },
+    "venue": {
+      "id": 20336,
+      "name": "AFAS Stadion",
+      "address": "Kleine Nieuwedijk 53",
+      "city": "Malines",
+      "capacity": 16715,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20336.png"
+    }
+  },
+  {
+    "team": {
+      "id": 554,
+      "name": "Anderlecht",
+      "code": "AND",
+      "country": "Belgium",
+      "founded": 1908,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/554.png"
+    },
+    "venue": {
+      "id": 174,
+      "name": "Lotto Park",
+      "address": "Avenue Théo Verbeeck 2",
+      "city": "Brussel",
+      "capacity": 28063,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/174.png"
+    }
+  },
+  {
+    "team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "code": "CLU",
+      "country": "Belgium",
+      "founded": 1891,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue": {
+      "id": 176,
+      "name": "Jan Breydelstadion",
+      "address": "Olympialaan 74",
+      "city": "Brugge",
+      "capacity": 29062,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/176.png"
+    }
+  },
+  {
+    "team": {
+      "id": 631,
+      "name": "Gent",
+      "code": "GEN",
+      "country": "Belgium",
+      "founded": 1900,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/631.png"
+    },
+    "venue": {
+      "id": 20727,
+      "name": "Planet Group Arena",
+      "address": "Ottergemsesteenweg-Zuid 808",
+      "city": "Gent",
+      "capacity": 20185,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20727.png"
+    }
+  },
+  {
+    "team": {
+      "id": 733,
+      "name": "Standard Liege",
+      "code": "STA",
+      "country": "Belgium",
+      "founded": 1898,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/733.png"
+    },
+    "venue": {
+      "id": 192,
+      "name": "Stade Maurice Dufrasne",
+      "address": "Rue de la Centrale 2, Sclessin",
+      "city": "Luik",
+      "capacity": 27670,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/192.png"
+    }
+  },
+  {
+    "team": {
+      "id": 734,
+      "name": "Kortrijk",
+      "code": "KOR",
+      "country": "Belgium",
+      "founded": 1901,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/734.png"
+    },
+    "venue": {
+      "id": 182,
+      "name": "Guldensporenstadion",
+      "address": "Meensesteenweg 84a / Moorseelsestraat 111b, Heule",
+      "city": "Kortrijk",
+      "capacity": 9399,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/182.png"
+    }
+  },
+  {
+    "team": {
+      "id": 735,
+      "name": "St. Truiden",
+      "code": "TRU",
+      "country": "Belgium",
+      "founded": 1924,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/735.png"
+    },
+    "venue": {
+      "id": 19611,
+      "name": "Daio Wasabi Stayen Stadium",
+      "address": "Tiensesteenweg 168",
+      "city": "St.-Trond",
+      "capacity": 14600,
+      "surface": "artificial turf",
+      "image": "https://media.api-sports.io/football/venues/19611.png"
+    }
+  },
+  {
+    "team": {
+      "id": 736,
+      "name": "Charleroi",
+      "code": "CHA",
+      "country": "Belgium",
+      "founded": 1904,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/736.png"
+    },
+    "venue": {
+      "id": 177,
+      "name": "Stade du Pays de Charleroi",
+      "address": "Boulevard Zoé Drion 19",
+      "city": "Charleroi",
+      "capacity": 18000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/177.png"
+    }
+  },
+  {
+    "team": {
+      "id": 739,
+      "name": "AS Eupen",
+      "code": "EUP",
+      "country": "Belgium",
+      "founded": 1945,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/739.png"
+    },
+    "venue": {
+      "id": 20333,
+      "name": "Kehrwegstadion",
+      "address": "Kehrweg 14",
+      "city": "Eupen",
+      "capacity": 8363,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20333.png"
+    }
+  },
+  {
+    "team": {
+      "id": 740,
+      "name": "Antwerp",
+      "code": "ANT",
+      "country": "Belgium",
+      "founded": 1880,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/740.png"
+    },
+    "venue": {
+      "id": 175,
+      "name": "Bosuilstadion",
+      "address": "Oude Bosuilbaan 54a",
+      "city": "Deurne",
+      "capacity": 23057,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/175.png"
+    }
+  },
+  {
+    "team": {
+      "id": 741,
+      "name": "Cercle Brugge",
+      "code": "CER",
+      "country": "Belgium",
+      "founded": 1899,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/741.png"
+    },
+    "venue": {
+      "id": 176,
+      "name": "Jan Breydelstadion",
+      "address": "Olympialaan 74",
+      "city": "Brugge",
+      "capacity": 29062,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/176.png"
+    }
+  },
+  {
+    "team": {
+      "id": 742,
+      "name": "Genk",
+      "code": "GEN",
+      "country": "Belgium",
+      "founded": 1988,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/742.png"
+    },
+    "venue": {
+      "id": 12455,
+      "name": "Cegeka Arena",
+      "address": "Stadionplein 4, Waterschei",
+      "city": "Genk",
+      "capacity": 24956,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/12455.png"
+    }
+  },
+  {
+    "team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "code": "GIL",
+      "country": "Belgium",
+      "founded": 1897,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/1393.png"
+    },
+    "venue": {
+      "id": 194,
+      "name": "Stade Joseph Mariën",
+      "address": "Chaussée de Bruxelles 223, Forest",
+      "city": "Brussels",
+      "capacity": 9400,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/194.png"
+    }
+  },
+  {
+    "team": {
+      "id": 6224,
+      "name": "RWDM",
+      "code": null,
+      "country": "Belgium",
+      "founded": 2015,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/6224.png"
+    },
+    "venue": {
+      "id": 19385,
+      "name": "Edmond Machtensstadion",
+      "address": "61, rue Charles Malis, Molenbeek-Saint-Jean",
+      "city": "Bruxelles",
+      "capacity": 15266,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/19385.png"
+    }
+  },
+  {
+    "team": {
+      "id": 118,
+      "name": "Bahia",
+      "code": "BAH",
+      "country": "Brazil",
+      "founded": 1931,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/118.png"
+    },
+    "venue": {
+      "id": 216,
+      "name": "Arena Fonte Nova",
+      "address": "Rua Lions Club, Nazaré",
+      "city": "Salvador, Bahia",
+      "capacity": 56500,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/216.png"
+    }
+  },
+  {
+    "team": {
+      "id": 119,
+      "name": "Internacional",
+      "code": "INT",
+      "country": "Brazil",
+      "founded": 1909,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/119.png"
+    },
+    "venue": {
+      "id": 244,
+      "name": "Estádio José Pinheiro Borda",
+      "address": "Avenida Padre Cacique 891, Bairro Menino Deus",
+      "city": "Porto Alegre, Rio Grande do Sul",
+      "capacity": 50128,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/244.png"
+    }
+  },
+  {
+    "team": {
+      "id": 120,
+      "name": "Botafogo",
+      "code": "BOT",
+      "country": "Brazil",
+      "founded": 1904,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/120.png"
+    },
+    "venue": {
+      "id": 218,
+      "name": "Estádio Nilton Santos",
+      "address": "Rua Arquias Cordeiro, Engenho de Dentro",
+      "city": "Rio de Janeiro",
+      "capacity": 46931,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/218.png"
+    }
+  },
+  {
+    "team": {
+      "id": 121,
+      "name": "Palmeiras",
+      "code": "PAL",
+      "country": "Brazil",
+      "founded": 1914,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/121.png"
+    },
+    "venue": {
+      "id": 258,
+      "name": "Allianz Parque",
+      "address": "Rua Turiaçu 1840, Perdizes",
+      "city": "São Paulo, São Paulo",
+      "capacity": 43713,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/258.png"
+    }
+  },
+  {
+    "team": {
+      "id": 124,
+      "name": "Fluminense",
+      "code": "FLU",
+      "country": "Brazil",
+      "founded": 1902,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/124.png"
+    },
+    "venue": {
+      "id": 204,
+      "name": "Estadio Jornalista Mário Filho (Maracanã)",
+      "address": "Rua Professor Eurico Rabelo, Maracanã",
+      "city": "Rio de Janeiro, Rio de Janeiro",
+      "capacity": 78838,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/204.png"
+    }
+  },
+  {
+    "team": {
+      "id": 125,
+      "name": "America Mineiro",
+      "code": "AME",
+      "country": "Brazil",
+      "founded": 1912,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/125.png"
+    },
+    "venue": {
+      "id": 206,
+      "name": "Estádio Raimundo Sampaio",
+      "address": "Avenida Ismênia Tunes, Bairro Horto",
+      "city": "Belo Horizonte, Minas Gerais",
+      "capacity": 23018,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/206.png"
+    }
+  },
+  {
+    "team": {
+      "id": 126,
+      "name": "Sao Paulo",
+      "code": "PAU",
+      "country": "Brazil",
+      "founded": 1930,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/126.png"
+    },
+    "venue": {
+      "id": 269,
+      "name": "Estádio Cícero Pompeu de Toledo (Morumbi)",
+      "address": "Praca Roberto Gomes Pedrosa 1, Morumbi",
+      "city": "São Paulo, São Paulo",
+      "capacity": 66795,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/269.png"
+    }
+  },
+  {
+    "team": {
+      "id": 127,
+      "name": "Flamengo",
+      "code": "FLA",
+      "country": "Brazil",
+      "founded": 1895,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/127.png"
+    },
+    "venue": {
+      "id": 204,
+      "name": "Estadio Jornalista Mário Filho (Maracanã)",
+      "address": "Rua Professor Eurico Rabelo, Maracanã",
+      "city": "Rio de Janeiro, Rio de Janeiro",
+      "capacity": 78838,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/204.png"
+    }
+  },
+  {
+    "team": {
+      "id": 128,
+      "name": "Santos",
+      "code": "SAN",
+      "country": "Brazil",
+      "founded": 1912,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/128.png"
+    },
+    "venue": {
+      "id": 10494,
+      "name": "Estádio Urbano Caldeira",
+      "address": "Rue Princesa Isabel 77, Vila Belmiro",
+      "city": "Santos, São Paulo",
+      "capacity": 21256,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/10494.png"
+    }
+  },
+  {
+    "team": {
+      "id": 130,
+      "name": "Gremio",
+      "code": "GRE",
+      "country": "Brazil",
+      "founded": 1903,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/130.png"
+    },
+    "venue": {
+      "id": 241,
+      "name": "Arena do Grêmio",
+      "address": "Bairro Humaitá",
+      "city": "Porto Alegre, Rio Grande do Sul",
+      "capacity": 60540,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/241.png"
+    }
+  },
+  {
+    "team": {
+      "id": 131,
+      "name": "Corinthians",
+      "code": "COR",
+      "country": "Brazil",
+      "founded": 1910,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/131.png"
+    },
+    "venue": {
+      "id": 11531,
+      "name": "Neo Química Arena",
+      "address": "Avenida Miguel Inácio Curi, 111, Vila Carmosina, Itaquera",
+      "city": "São Paulo, São Paulo",
+      "capacity": 49205,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/11531.png"
+    }
+  },
+  {
+    "team": {
+      "id": 133,
+      "name": "Vasco DA Gama",
+      "code": "VAS",
+      "country": "Brazil",
+      "founded": 1898,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/133.png"
+    },
+    "venue": {
+      "id": 19377,
+      "name": "Estádio São Januário",
+      "address": "Rua Gal Almério de Moura 131, Bairro Vasco da Gama",
+      "city": "Rio de Janeiro, Rio de Janeiro",
+      "capacity": 24584,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/19377.png"
+    }
+  },
+  {
+    "team": {
+      "id": 134,
+      "name": "Atletico Paranaense",
+      "code": "ATL",
+      "country": "Brazil",
+      "founded": 1924,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/134.png"
+    },
+    "venue": {
+      "id": 10493,
+      "name": "Arena da Baixada",
+      "address": "Rua Buenos Aires 1260, Água Verde",
+      "city": "Curitiba, Paraná",
+      "capacity": 43981,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/10493.png"
+    }
+  },
+  {
+    "team": {
+      "id": 135,
+      "name": "Cruzeiro",
+      "code": "CRU",
+      "country": "Brazil",
+      "founded": 1921,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/135.png"
+    },
+    "venue": {
+      "id": 234,
+      "name": "Estádio Governador Magalhães Pinto",
+      "address": "Avenida Antonio Abrahão Carã 1001, Pampulhas",
+      "city": "Belo Horizonte, Minas Gerais",
+      "capacity": 62170,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/234.png"
+    }
+  },
+  {
+    "team": {
+      "id": 147,
+      "name": "Coritiba",
+      "code": "COR",
+      "country": "Brazil",
+      "founded": 1909,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/147.png"
+    },
+    "venue": {
+      "id": 230,
+      "name": "Estádio Major Antônio Couto Pereira",
+      "address": "Rua Ubaldino do Amaral 37, Bairro Alto da Glória",
+      "city": "Curitiba, Paraná",
+      "capacity": 45563,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/230.png"
+    }
+  },
+  {
+    "team": {
+      "id": 151,
+      "name": "Goias",
+      "code": "GOI",
+      "country": "Brazil",
+      "founded": 1943,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/151.png"
+    },
+    "venue": {
+      "id": 240,
+      "name": "Estádio de Hailé Pinheiro",
+      "address": "Avenida Edmundo Pinheiro de Abreu 721, Setor Bela Vista",
+      "city": "Goiânia, Goiás",
+      "capacity": 14525,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/240.png"
+    }
+  },
+  {
+    "team": {
+      "id": 154,
+      "name": "Fortaleza EC",
+      "code": "FOR",
+      "country": "Brazil",
+      "founded": 1918,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/154.png"
+    },
+    "venue": {
+      "id": 225,
+      "name": "Estádio Governador Plácido Aderaldo Castelo",
+      "address": "Avenida Alberto Craveiro, Passaré",
+      "city": "Fortaleza, Ceará",
+      "capacity": 63903,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/225.png"
+    }
+  },
+  {
+    "team": {
+      "id": 794,
+      "name": "RB Bragantino",
+      "code": "BRA",
+      "country": "Brazil",
+      "founded": 1928,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/794.png"
+    },
+    "venue": {
+      "id": 220,
+      "name": "Estádio Nabi Abi Chedid",
+      "address": "Rua Emílio Coleta",
+      "city": "Bragança Paulista, São Paulo",
+      "capacity": 17128,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/220.png"
+    }
+  },
+  {
+    "team": {
+      "id": 1062,
+      "name": "Atletico-MG",
+      "code": "ATL",
+      "country": "Brazil",
+      "founded": 1908,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/1062.png"
+    },
+    "venue": {
+      "id": 21427,
+      "name": "Arena MRV",
+      "address": "Av. Pres. Juscelino Kubitschek - Califórnia",
+      "city": "Belo Horizonte, Minas Gerais",
+      "capacity": 47465,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/21427.png"
+    }
+  },
+  {
+    "team": {
+      "id": 1193,
+      "name": "Cuiaba",
+      "code": "CUI",
+      "country": "Brazil",
+      "founded": 2001,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/1193.png"
+    },
+    "venue": {
+      "id": 235,
+      "name": "Arena Pantanal",
+      "address": null,
+      "city": "Cuiabá, Mato Grosso",
+      "capacity": 44003,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/235.png"
+    }
+  },
+  {
+    "team": {
+      "id": 33,
+      "name": "Manchester United",
+      "code": "MUN",
+      "country": "England",
+      "founded": 1878,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/33.png"
+    },
+    "venue": {
+      "id": 556,
+      "name": "Old Trafford",
+      "address": "Sir Matt Busby Way",
+      "city": "Manchester",
+      "capacity": 76212,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/556.png"
+    }
+  },
+  {
+    "team": {
+      "id": 34,
+      "name": "Newcastle",
+      "code": "NEW",
+      "country": "England",
+      "founded": 1892,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "venue": {
+      "id": 562,
+      "name": "St. James' Park",
+      "address": "St. James&apos; Street",
+      "city": "Newcastle upon Tyne",
+      "capacity": 52758,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/562.png"
+    }
+  },
+  {
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "code": "BOU",
+      "country": "England",
+      "founded": 1899,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/35.png"
+    },
+    "venue": {
+      "id": 504,
+      "name": "Vitality Stadium",
+      "address": "Dean Court, Kings Park",
+      "city": "Bournemouth, Dorset",
+      "capacity": 12000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/504.png"
+    }
+  },
+  {
+    "team": {
+      "id": 36,
+      "name": "Fulham",
+      "code": "FUL",
+      "country": "England",
+      "founded": 1879,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/36.png"
+    },
+    "venue": {
+      "id": 535,
+      "name": "Craven Cottage",
+      "address": "Stevenage Road",
+      "city": "London",
+      "capacity": 25700,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/535.png"
+    }
+  },
+  {
+    "team": {
+      "id": 39,
+      "name": "Wolves",
+      "code": "WOL",
+      "country": "England",
+      "founded": 1877,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/39.png"
+    },
+    "venue": {
+      "id": 600,
+      "name": "Molineux Stadium",
+      "address": "Waterloo Road",
+      "city": "Wolverhampton, West Midlands",
+      "capacity": 34624,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/600.png"
+    }
+  },
+  {
+    "team": {
+      "id": 40,
+      "name": "Liverpool",
+      "code": "LIV",
+      "country": "England",
+      "founded": 1892,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue": {
+      "id": 550,
+      "name": "Anfield",
+      "address": "Anfield Road",
+      "city": "Liverpool",
+      "capacity": 55212,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/550.png"
+    }
+  },
+  {
+    "team": {
+      "id": 42,
+      "name": "Arsenal",
+      "code": "ARS",
+      "country": "England",
+      "founded": 1886,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue": {
+      "id": 494,
+      "name": "Emirates Stadium",
+      "address": "Queensland Road",
+      "city": "London",
+      "capacity": 60383,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/494.png"
+    }
+  },
+  {
+    "team": {
+      "id": 44,
+      "name": "Burnley",
+      "code": "BUR",
+      "country": "England",
+      "founded": 1882,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/44.png"
+    },
+    "venue": {
+      "id": 512,
+      "name": "Turf Moor",
+      "address": "Harry Potts Way",
+      "city": "Burnley",
+      "capacity": 22546,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/512.png"
+    }
+  },
+  {
+    "team": {
+      "id": 45,
+      "name": "Everton",
+      "code": "EVE",
+      "country": "England",
+      "founded": 1878,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/45.png"
+    },
+    "venue": {
+      "id": 8560,
+      "name": "Goodison Park",
+      "address": "Goodison Road",
+      "city": "Liverpool",
+      "capacity": 40569,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/8560.png"
+    }
+  },
+  {
+    "team": {
+      "id": 47,
+      "name": "Tottenham",
+      "code": "TOT",
+      "country": "England",
+      "founded": 1882,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "venue": {
+      "id": 593,
+      "name": "Tottenham Hotspur Stadium",
+      "address": "Bill Nicholson Way, 748 High Road",
+      "city": "London",
+      "capacity": 62850,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/593.png"
+    }
+  },
+  {
+    "team": {
+      "id": 48,
+      "name": "West Ham",
+      "code": "WES",
+      "country": "England",
+      "founded": 1895,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/48.png"
+    },
+    "venue": {
+      "id": 598,
+      "name": "London Stadium",
+      "address": "Marshgate Lane, Stratford",
+      "city": "London",
+      "capacity": 62500,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/598.png"
+    }
+  },
+  {
+    "team": {
+      "id": 49,
+      "name": "Chelsea",
+      "code": "CHE",
+      "country": "England",
+      "founded": 1905,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "venue": {
+      "id": 519,
+      "name": "Stamford Bridge",
+      "address": "Fulham Road",
+      "city": "London",
+      "capacity": 41841,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/519.png"
+    }
+  },
+  {
+    "team": {
+      "id": 50,
+      "name": "Manchester City",
+      "code": "MAC",
+      "country": "England",
+      "founded": 1880,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "venue": {
+      "id": 555,
+      "name": "Etihad Stadium",
+      "address": "Rowsley Street",
+      "city": "Manchester",
+      "capacity": 55097,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/555.png"
+    }
+  },
+  {
+    "team": {
+      "id": 51,
+      "name": "Brighton",
+      "code": "BRI",
+      "country": "England",
+      "founded": 1901,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/51.png"
+    },
+    "venue": {
+      "id": 508,
+      "name": "The American Express Community Stadium",
+      "address": "Village Way",
+      "city": "Falmer, East Sussex",
+      "capacity": 31872,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/508.png"
+    }
+  },
+  {
+    "team": {
+      "id": 52,
+      "name": "Crystal Palace",
+      "code": "CRY",
+      "country": "England",
+      "founded": 1905,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/52.png"
+    },
+    "venue": {
+      "id": 525,
+      "name": "Selhurst Park",
+      "address": "Holmesdale Road",
+      "city": "London",
+      "capacity": 26309,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/525.png"
+    }
+  },
+  {
+    "team": {
+      "id": 55,
+      "name": "Brentford",
+      "code": "BRE",
+      "country": "England",
+      "founded": 1889,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/55.png"
+    },
+    "venue": {
+      "id": 10503,
+      "name": "Gtech Community Stadium",
+      "address": "166 Lionel Rd N, Brentford",
+      "city": "Brentford, Middlesex",
+      "capacity": 17250,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/10503.png"
+    }
+  },
+  {
+    "team": {
+      "id": 62,
+      "name": "Sheffield Utd",
+      "code": "SHE",
+      "country": "England",
+      "founded": 1889,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/62.png"
+    },
+    "venue": {
+      "id": 581,
+      "name": "Bramall Lane",
+      "address": "Bramall Lane",
+      "city": "Sheffield",
+      "capacity": 32702,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/581.png"
+    }
+  },
+  {
+    "team": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "code": "NOT",
+      "country": "England",
+      "founded": 1865,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/65.png"
+    },
+    "venue": {
+      "id": 566,
+      "name": "The City Ground",
+      "address": "Pavilion Road",
+      "city": "Nottingham, Nottinghamshire",
+      "capacity": 30576,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/566.png"
+    }
+  },
+  {
+    "team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "code": "AST",
+      "country": "England",
+      "founded": 1874,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "venue": {
+      "id": 495,
+      "name": "Villa Park",
+      "address": "Trinity Road",
+      "city": "Birmingham",
+      "capacity": 42788,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/495.png"
+    }
+  },
+  {
+    "team": {
+      "id": 1359,
+      "name": "Luton",
+      "code": "LUT",
+      "country": "England",
+      "founded": 1885,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/1359.png"
+    },
+    "venue": {
+      "id": 551,
+      "name": "Kenilworth Road",
+      "address": "1 Maple Road",
+      "city": "Luton, Bedfordshire",
+      "capacity": 11500,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/551.png"
+    }
+  },
+  {
+    "team": {
+      "id": 157,
+      "name": "Bayern München",
+      "code": "BAY",
+      "country": "Germany",
+      "founded": 1900,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue": {
+      "id": 20732,
+      "name": "Fußball Arena München",
+      "address": "Werner-Heisenberg-Allee 25",
+      "city": "München",
+      "capacity": 75024,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20732.png"
+    }
+  },
+  {
+    "team": {
+      "id": 158,
+      "name": "Fortuna Düsseldorf",
+      "code": "DUS",
+      "country": "Germany",
+      "founded": 1895,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/158.png"
+    },
+    "venue": {
+      "id": 20735,
+      "name": "Düsseldorf Arena",
+      "address": "Arena-Str. 1",
+      "city": "Düsseldorf",
+      "capacity": 54600,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20735.png"
+    }
+  },
+  {
+    "team": {
+      "id": 160,
+      "name": "SC Freiburg",
+      "code": "FRE",
+      "country": "Germany",
+      "founded": 1904,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/160.png"
+    },
+    "venue": {
+      "id": 12717,
+      "name": "Europa-Park Stadion",
+      "address": "Achim-Stocker-Straße 1",
+      "city": "Freiburg im Breisgau",
+      "capacity": 34700,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/12717.png"
+    }
+  },
+  {
+    "team": {
+      "id": 161,
+      "name": "VfL Wolfsburg",
+      "code": "WOL",
+      "country": "Germany",
+      "founded": 1945,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/161.png"
+    },
+    "venue": {
+      "id": 752,
+      "name": "Volkswagen Arena",
+      "address": "In den Allerwiesen 1",
+      "city": "Wolfsburg",
+      "capacity": 30000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/752.png"
+    }
+  },
+  {
+    "team": {
+      "id": 162,
+      "name": "Werder Bremen",
+      "code": "WER",
+      "country": "Germany",
+      "founded": 1899,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/162.png"
+    },
+    "venue": {
+      "id": 755,
+      "name": "wohninvest WESERSTADION",
+      "address": "Franz-Böhmert-Straße 1c",
+      "city": "Bremen",
+      "capacity": 42358,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/755.png"
+    }
+  },
+  {
+    "team": {
+      "id": 163,
+      "name": "Borussia Mönchengladbach",
+      "code": "MOE",
+      "country": "Germany",
+      "founded": 1900,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/163.png"
+    },
+    "venue": {
+      "id": 20471,
+      "name": "BORUSSIA-PARK",
+      "address": "Hennes-Weisweiler-Allee 1",
+      "city": "Mönchengladbach",
+      "capacity": 54057,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20471.png"
+    }
+  },
+  {
+    "team": {
+      "id": 164,
+      "name": "FSV Mainz 05",
+      "code": "MAI",
+      "country": "Germany",
+      "founded": 1905,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/164.png"
+    },
+    "venue": {
+      "id": 11899,
+      "name": "MEWA ARENA",
+      "address": "Eugen-Salomon-Straße 1",
+      "city": "Mainz",
+      "capacity": 34034,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/11899.png"
+    }
+  },
+  {
+    "team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "code": "DOR",
+      "country": "Germany",
+      "founded": 1909,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue": {
+      "id": 20733,
+      "name": "BVB Stadion Dortmund",
+      "address": "Strobelalle 50",
+      "city": "Dortmund",
+      "capacity": 81365,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20733.png"
+    }
+  },
+  {
+    "team": {
+      "id": 167,
+      "name": "1899 Hoffenheim",
+      "code": "HOF",
+      "country": "Germany",
+      "founded": 1899,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/167.png"
+    },
+    "venue": {
+      "id": 724,
+      "name": "PreZero Arena",
+      "address": "Dietmar-Hopp-Straße 1",
+      "city": "Sinsheim",
+      "capacity": 30164,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/724.png"
+    }
+  },
+  {
+    "team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "code": "BAY",
+      "country": "Germany",
+      "founded": 1904,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue": {
+      "id": 699,
+      "name": "BayArena",
+      "address": "Bismarckstr. 122-124",
+      "city": "Leverkusen",
+      "capacity": 30210,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/699.png"
+    }
+  },
+  {
+    "team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "code": "EIN",
+      "country": "Germany",
+      "founded": 1899,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+    },
+    "venue": {
+      "id": 20734,
+      "name": "Frankfurt Arena",
+      "address": "Mörfelder Landstr. 362",
+      "city": "Frankfurt am Main",
+      "capacity": 58000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20734.png"
+    }
+  },
+  {
+    "team": {
+      "id": 170,
+      "name": "FC Augsburg",
+      "code": "AUG",
+      "country": "Germany",
+      "founded": 1907,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/170.png"
+    },
+    "venue": {
+      "id": 698,
+      "name": "WWK Arena",
+      "address": "Bürgermeister Ulrich-Straße 90",
+      "city": "Augsburg",
+      "capacity": 30662,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/698.png"
+    }
+  },
+  {
+    "team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "code": "STU",
+      "country": "Germany",
+      "founded": 1893,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+    },
+    "venue": {
+      "id": 20739,
+      "name": "Stuttgart Arena",
+      "address": "Mercedesstrasse 87",
+      "city": "Stuttgart",
+      "capacity": 60469,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20739.png"
+    }
+  },
+  {
+    "team": {
+      "id": 173,
+      "name": "RB Leipzig",
+      "code": "LEI",
+      "country": "Germany",
+      "founded": 2009,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/173.png"
+    },
+    "venue": {
+      "id": 20737,
+      "name": "Leipzig Stadium",
+      "address": "Am Sportforum 3",
+      "city": "Leipzig",
+      "capacity": 47069,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20737.png"
+    }
+  },
+  {
+    "team": {
+      "id": 176,
+      "name": "VfL Bochum",
+      "code": "BOC",
+      "country": "Germany",
+      "founded": 1848,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/176.png"
+    },
+    "venue": {
+      "id": 751,
+      "name": "Vonovia Ruhrstadion",
+      "address": "Castropher Straße 145",
+      "city": "Bochum",
+      "capacity": 27599,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/751.png"
+    }
+  },
+  {
+    "team": {
+      "id": 180,
+      "name": "1. FC Heidenheim",
+      "code": "HEI",
+      "country": "Germany",
+      "founded": 1946,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/180.png"
+    },
+    "venue": {
+      "id": 723,
+      "name": "Voith-Arena",
+      "address": "Schloßhaustraße 160",
+      "city": "Heidenheim an der Brenz",
+      "capacity": 15000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/723.png"
+    }
+  },
+  {
+    "team": {
+      "id": 181,
+      "name": "SV Darmstadt 98",
+      "code": "DAR",
+      "country": "Germany",
+      "founded": 1898,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/181.png"
+    },
+    "venue": {
+      "id": 705,
+      "name": "Merck-Stadion am Böllenfalltor",
+      "address": "Nieder-Ramstädter Straße 170",
+      "city": "Darmstadt",
+      "capacity": 17810,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/705.png"
+    }
+  },
+  {
+    "team": {
+      "id": 182,
+      "name": "Union Berlin",
+      "code": "UNI",
+      "country": "Germany",
+      "founded": 1966,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/182.png"
+    },
+    "venue": {
+      "id": 748,
+      "name": "Stadion An der Alten Försterei",
+      "address": "Hämmerlingstraße 80-88, Köpenick",
+      "city": "Berlin",
+      "capacity": 22467,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/748.png"
+    }
+  },
+  {
+    "team": {
+      "id": 192,
+      "name": "1.FC Köln",
+      "code": "KOL",
+      "country": "Germany",
+      "founded": 1948,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/192.png"
+    },
+    "venue": {
+      "id": 20736,
+      "name": "Cologne Stadium",
+      "address": "Aachener Str. 999",
+      "city": "Köln",
+      "capacity": 50076,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20736.png"
+    }
+  },
+  {
+    "team": {
+      "id": 487,
+      "name": "Lazio",
+      "code": "LAZ",
+      "country": "Italy",
+      "founded": 1900,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/487.png"
+    },
+    "venue": {
+      "id": 910,
+      "name": "Stadio Olimpico",
+      "address": "Viale dei Gladiatori, 2 / Via del Foro Italico",
+      "city": "Roma",
+      "capacity": 68530,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/910.png"
+    }
+  },
+  {
+    "team": {
+      "id": 488,
+      "name": "Sassuolo",
+      "code": "SAS",
+      "country": "Italy",
+      "founded": 1922,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/488.png"
+    },
+    "venue": {
+      "id": 935,
+      "name": "MAPEI Stadium - Città del Tricolore",
+      "address": "Piazza Azzuri d&apos;Italia, 1",
+      "city": "Reggio Emilia",
+      "capacity": 23717,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/935.png"
+    }
+  },
+  {
+    "team": {
+      "id": 489,
+      "name": "AC Milan",
+      "code": "MIL",
+      "country": "Italy",
+      "founded": 1899,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+    },
+    "venue": {
+      "id": 907,
+      "name": "Stadio Giuseppe Meazza",
+      "address": "Via Piccolomini 5",
+      "city": "Milano",
+      "capacity": 80018,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/907.png"
+    }
+  },
+  {
+    "team": {
+      "id": 490,
+      "name": "Cagliari",
+      "code": "CAG",
+      "country": "Italy",
+      "founded": 1920,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/490.png"
+    },
+    "venue": {
+      "id": 12275,
+      "name": "Unipol Domus",
+      "address": "Via Raimondo Carta Raspi",
+      "city": "Cagliari",
+      "capacity": 16416,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/12275.png"
+    }
+  },
+  {
+    "team": {
+      "id": 492,
+      "name": "Napoli",
+      "code": "NAP",
+      "country": "Italy",
+      "founded": 1904,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+    },
+    "venue": {
+      "id": 11904,
+      "name": "Stadio Diego Armando Maradona",
+      "address": "Pizzale Vincenzo Tecchio",
+      "city": "Napoli",
+      "capacity": 60240,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/11904.png"
+    }
+  },
+  {
+    "team": {
+      "id": 494,
+      "name": "Udinese",
+      "code": "UDI",
+      "country": "Italy",
+      "founded": 1896,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/494.png"
+    },
+    "venue": {
+      "id": 20416,
+      "name": "Bluenergy Stadium",
+      "address": "Piazza le Repubblica Argentina, 3",
+      "city": "Udine",
+      "capacity": 25952,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20416.png"
+    }
+  },
+  {
+    "team": {
+      "id": 495,
+      "name": "Genoa",
+      "code": "GEN",
+      "country": "Italy",
+      "founded": 1893,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/495.png"
+    },
+    "venue": {
+      "id": 905,
+      "name": "Stadio Comunale Luigi Ferraris",
+      "address": "Via Giovanni De Prà, 1",
+      "city": "Genova",
+      "capacity": 36703,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/905.png"
+    }
+  },
+  {
+    "team": {
+      "id": 496,
+      "name": "Juventus",
+      "code": "JUV",
+      "country": "Italy",
+      "founded": 1897,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "venue": {
+      "id": 909,
+      "name": "Allianz Stadium",
+      "address": "Strada Comunale di Altessano 131",
+      "city": "Torino",
+      "capacity": 45666,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/909.png"
+    }
+  },
+  {
+    "team": {
+      "id": 497,
+      "name": "AS Roma",
+      "code": "ROM",
+      "country": "Italy",
+      "founded": 1927,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/497.png"
+    },
+    "venue": {
+      "id": 910,
+      "name": "Stadio Olimpico",
+      "address": "Viale dei Gladiatori, 2 / Via del Foro Italico",
+      "city": "Roma",
+      "capacity": 68530,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/910.png"
+    }
+  },
+  {
+    "team": {
+      "id": 499,
+      "name": "Atalanta",
+      "code": "ATA",
+      "country": "Italy",
+      "founded": 1907,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue": {
+      "id": 879,
+      "name": "Gewiss Stadium",
+      "address": "Viale Giulio Cesare 18",
+      "city": "Bergamo",
+      "capacity": 21300,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/879.png"
+    }
+  },
+  {
+    "team": {
+      "id": 500,
+      "name": "Bologna",
+      "code": "BOL",
+      "country": "Italy",
+      "founded": 1909,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+    },
+    "venue": {
+      "id": 881,
+      "name": "Stadio Renato Dall'Ara",
+      "address": "Via Andrea Costa, 174",
+      "city": "Bologna",
+      "capacity": 39279,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/881.png"
+    }
+  },
+  {
+    "team": {
+      "id": 502,
+      "name": "Fiorentina",
+      "code": "FIO",
+      "country": "Italy",
+      "founded": 1926,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/502.png"
+    },
+    "venue": {
+      "id": 902,
+      "name": "Stadio Artemio Franchi",
+      "address": "Viale Manfredo Fanti 14",
+      "city": "Firenze",
+      "capacity": 43147,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/902.png"
+    }
+  },
+  {
+    "team": {
+      "id": 503,
+      "name": "Torino",
+      "code": "TOR",
+      "country": "Italy",
+      "founded": 1906,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/503.png"
+    },
+    "venue": {
+      "id": 943,
+      "name": "Stadio Olimpico Grande Torino",
+      "address": "Corso Sebastopoli 123, Santa Rita",
+      "city": "Torino",
+      "capacity": 27958,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/943.png"
+    }
+  },
+  {
+    "team": {
+      "id": 504,
+      "name": "Verona",
+      "code": "VER",
+      "country": "Italy",
+      "founded": 1903,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/504.png"
+    },
+    "venue": {
+      "id": 890,
+      "name": "Stadio Marc'Antonio Bentegodi",
+      "address": "Piazzale Olimpia",
+      "city": "Verona",
+      "capacity": 39211,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/890.png"
+    }
+  },
+  {
+    "team": {
+      "id": 505,
+      "name": "Inter",
+      "code": "INT",
+      "country": "Italy",
+      "founded": 1908,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue": {
+      "id": 907,
+      "name": "Stadio Giuseppe Meazza",
+      "address": "Via Piccolomini 5",
+      "city": "Milano",
+      "capacity": 80018,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/907.png"
+    }
+  },
+  {
+    "team": {
+      "id": 511,
+      "name": "Empoli",
+      "code": "EMP",
+      "country": "Italy",
+      "founded": 1920,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/511.png"
+    },
+    "venue": {
+      "id": 20109,
+      "name": "Stadio Carlo Castellani – Computer Gross Arena",
+      "address": "Viale delle Olimpiadi",
+      "city": "Empoli",
+      "capacity": 16284,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20109.png"
+    }
+  },
+  {
+    "team": {
+      "id": 512,
+      "name": "Frosinone",
+      "code": "FRO",
+      "country": "Italy",
+      "founded": 1928,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/512.png"
+    },
+    "venue": {
+      "id": 904,
+      "name": "Stadio Benito Stirpe",
+      "address": "Viale Olimpia",
+      "city": "Frosinone",
+      "capacity": 16310,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/904.png"
+    }
+  },
+  {
+    "team": {
+      "id": 514,
+      "name": "Salernitana",
+      "code": "SAL",
+      "country": "Italy",
+      "founded": 2011,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/514.png"
+    },
+    "venue": {
+      "id": 933,
+      "name": "Stadio Arechi",
+      "address": "Via Salvador Allende",
+      "city": "Salerno",
+      "capacity": 37245,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/933.png"
+    }
+  },
+  {
+    "team": {
+      "id": 867,
+      "name": "Lecce",
+      "code": "LEC",
+      "country": "Italy",
+      "founded": 1908,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/867.png"
+    },
+    "venue": {
+      "id": 911,
+      "name": "Stadio Comunale Via del Mare",
+      "address": "Viale dello Stadio",
+      "city": "Lecce",
+      "capacity": 33876,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/911.png"
+    }
+  },
+  {
+    "team": {
+      "id": 1579,
+      "name": "Monza",
+      "code": "MON",
+      "country": "Italy",
+      "founded": 1912,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/1579.png"
+    },
+    "venue": {
+      "id": 12086,
+      "name": "U-Power Stadium",
+      "address": "Via Franco Tognini",
+      "city": "Monza",
+      "capacity": 18568,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/12086.png"
+    }
+  },
+  {
+    "team": {
+      "id": 193,
+      "name": "PEC Zwolle",
+      "code": "ZWO",
+      "country": "Netherlands",
+      "founded": 1910,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/193.png"
+    },
+    "venue": {
+      "id": 1160,
+      "name": "MAC³PARK Stadion",
+      "address": "Stadionplein 1",
+      "city": "Zwolle",
+      "capacity": 14000,
+      "surface": "artificial turf",
+      "image": "https://media.api-sports.io/football/venues/1160.png"
+    }
+  },
+  {
+    "team": {
+      "id": 194,
+      "name": "Ajax",
+      "code": "AJA",
+      "country": "Netherlands",
+      "founded": 1900,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/194.png"
+    },
+    "venue": {
+      "id": 1117,
+      "name": "Johan Cruijff Arena",
+      "address": "ArenA Boulevard 1",
+      "city": "Amsterdam",
+      "capacity": 55885,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1117.png"
+    }
+  },
+  {
+    "team": {
+      "id": 196,
+      "name": "Excelsior",
+      "code": "EXC",
+      "country": "Netherlands",
+      "founded": 1902,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/196.png"
+    },
+    "venue": {
+      "id": 2901,
+      "name": "Van Donge & De Roo Stadion",
+      "address": "Honingerdijk 110",
+      "city": "Rotterdam",
+      "capacity": 4500,
+      "surface": "artificial turf",
+      "image": "https://media.api-sports.io/football/venues/2901.png"
+    }
+  },
+  {
+    "team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "code": "PSV",
+      "country": "Netherlands",
+      "founded": 1913,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "venue": {
+      "id": 1143,
+      "name": "Philips Stadion",
+      "address": "Frederiklaan 10",
+      "city": "Eindhoven",
+      "capacity": 36500,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1143.png"
+    }
+  },
+  {
+    "team": {
+      "id": 198,
+      "name": "ADO Den Haag",
+      "code": "HAA",
+      "country": "Netherlands",
+      "founded": 1905,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/198.png"
+    },
+    "venue": {
+      "id": 19212,
+      "name": "Bingoal Stadion",
+      "address": "Haags Kwartier 55",
+      "city": "‘s-Gravenhage",
+      "capacity": 15000,
+      "surface": "artificial turf",
+      "image": "https://media.api-sports.io/football/venues/19212.png"
+    }
+  },
+  {
+    "team": {
+      "id": 199,
+      "name": "De Graafschap",
+      "code": "GRA",
+      "country": "Netherlands",
+      "founded": 1954,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/199.png"
+    },
+    "venue": {
+      "id": 1121,
+      "name": "Stadion De Vijverberg",
+      "address": "Lijsterbeslaan 101a",
+      "city": "Doetinchem",
+      "capacity": 12600,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1121.png"
+    }
+  },
+  {
+    "team": {
+      "id": 200,
+      "name": "Vitesse",
+      "code": "VIT",
+      "country": "Netherlands",
+      "founded": 1892,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/200.png"
+    },
+    "venue": {
+      "id": 1155,
+      "name": "GelreDome",
+      "address": "Batavierenweg 25",
+      "city": "Arnhem",
+      "capacity": 25500,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1155.png"
+    }
+  },
+  {
+    "team": {
+      "id": 201,
+      "name": "AZ Alkmaar",
+      "code": "ALK",
+      "country": "Netherlands",
+      "founded": 1967,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/201.png"
+    },
+    "venue": {
+      "id": 1119,
+      "name": "AFAS Stadion",
+      "address": "Stadionweg 1",
+      "city": "Alkmaar",
+      "capacity": 19500,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1119.png"
+    }
+  },
+  {
+    "team": {
+      "id": 203,
+      "name": "NAC Breda",
+      "code": "BRE",
+      "country": "Netherlands",
+      "founded": 1912,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/203.png"
+    },
+    "venue": {
+      "id": 1139,
+      "name": "Rat Verlegh Stadion",
+      "address": "Stadionstraat 23",
+      "city": "Breda",
+      "capacity": 19000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1139.png"
+    }
+  },
+  {
+    "team": {
+      "id": 205,
+      "name": "Fortuna Sittard",
+      "code": "SIT",
+      "country": "Netherlands",
+      "founded": 1968,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/205.png"
+    },
+    "venue": {
+      "id": 1129,
+      "name": "Fortuna Sittard Stadion",
+      "address": "Milaanstraat 120",
+      "city": "Sittard",
+      "capacity": 12500,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1129.png"
+    }
+  },
+  {
+    "team": {
+      "id": 206,
+      "name": "Heracles",
+      "code": "HER",
+      "country": "Netherlands",
+      "founded": 1903,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/206.png"
+    },
+    "venue": {
+      "id": 11906,
+      "name": "Erve Asito",
+      "address": "Van Riemsdijkplein 1",
+      "city": "Almelo",
+      "capacity": 13500,
+      "surface": "artificial turf",
+      "image": "https://media.api-sports.io/football/venues/11906.png"
+    }
+  },
+  {
+    "team": {
+      "id": 207,
+      "name": "Utrecht",
+      "code": "UTR",
+      "country": "Netherlands",
+      "founded": 1970,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/207.png"
+    },
+    "venue": {
+      "id": 1154,
+      "name": "Stadion Galgenwaard",
+      "address": "Herculesplein 241",
+      "city": "Utrecht",
+      "capacity": 24426,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1154.png"
+    }
+  },
+  {
+    "team": {
+      "id": 208,
+      "name": "Emmen",
+      "code": "EMM",
+      "country": "Netherlands",
+      "founded": 1985,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/208.png"
+    },
+    "venue": {
+      "id": 10504,
+      "name": "De Oude Meerdijk",
+      "address": "Stadionplein 1",
+      "city": "Emmen",
+      "capacity": 8600,
+      "surface": "artificial turf",
+      "image": "https://media.api-sports.io/football/venues/10504.png"
+    }
+  },
+  {
+    "team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "code": "FEY",
+      "country": "Netherlands",
+      "founded": 1908,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "venue": {
+      "id": 1128,
+      "name": "Stadion Feijenoord",
+      "address": "Van Zandvlietplein 1",
+      "city": "Rotterdam",
+      "capacity": 51117,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1128.png"
+    }
+  },
+  {
+    "team": {
+      "id": 210,
+      "name": "Heerenveen",
+      "code": "HEE",
+      "country": "Netherlands",
+      "founded": 1920,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/210.png"
+    },
+    "venue": {
+      "id": 1132,
+      "name": "Abe Lenstra Stadion",
+      "address": "Abe Lenstra boulevard 19",
+      "city": "Heerenveen",
+      "capacity": 27224,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1132.png"
+    }
+  },
+  {
+    "team": {
+      "id": 409,
+      "name": "Dordrecht",
+      "code": "DOR",
+      "country": "Netherlands",
+      "founded": 1990,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/409.png"
+    },
+    "venue": {
+      "id": 20517,
+      "name": "M-Scores Stadion",
+      "address": "Krommedijk 210",
+      "city": "Dordrecht",
+      "capacity": 4235,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/20517.png"
+    }
+  },
+  {
+    "team": {
+      "id": 410,
+      "name": "GO Ahead Eagles",
+      "code": "EAG",
+      "country": "Netherlands",
+      "founded": 1971,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/410.png"
+    },
+    "venue": {
+      "id": 1130,
+      "name": "De Adelaarshorst",
+      "address": "Vetkampstraat 1",
+      "city": "Deventer",
+      "capacity": 10400,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1130.png"
+    }
+  },
+  {
+    "team": {
+      "id": 413,
+      "name": "NEC Nijmegen",
+      "code": "NIJ",
+      "country": "Netherlands",
+      "founded": 1900,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/413.png"
+    },
+    "venue": {
+      "id": 1140,
+      "name": "Goffertstadion",
+      "address": "Stadionplein 1",
+      "city": "Nijmegen",
+      "capacity": 12540,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1140.png"
+    }
+  },
+  {
+    "team": {
+      "id": 414,
+      "name": "Roda",
+      "code": "ROD",
+      "country": "Netherlands",
+      "founded": 1962,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/414.png"
+    },
+    "venue": {
+      "id": 1146,
+      "name": "Parkstad Limburg Stadion",
+      "address": "Roda J.C. Ring 1",
+      "city": "Kerkrade",
+      "capacity": 19979,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1146.png"
+    }
+  },
+  {
+    "team": {
+      "id": 415,
+      "name": "Twente",
+      "code": "TWE",
+      "country": "Netherlands",
+      "founded": 1965,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/415.png"
+    },
+    "venue": {
+      "id": 1153,
+      "name": "De Grolsch Veste",
+      "address": "Colosseum 65",
+      "city": "Enschede",
+      "capacity": 30205,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1153.png"
+    }
+  },
+  {
+    "team": {
+      "id": 416,
+      "name": "FC Volendam",
+      "code": "VOL",
+      "country": "Netherlands",
+      "founded": 1920,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/416.png"
+    },
+    "venue": {
+      "id": 1156,
+      "name": "Kras Stadion",
+      "address": "Sportlaan 10",
+      "city": "Volendam",
+      "capacity": 7384,
+      "surface": "artificial turf",
+      "image": "https://media.api-sports.io/football/venues/1156.png"
+    }
+  },
+  {
+    "team": {
+      "id": 417,
+      "name": "Waalwijk",
+      "code": "WAA",
+      "country": "Netherlands",
+      "founded": 1940,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/417.png"
+    },
+    "venue": {
+      "id": 1144,
+      "name": "Mandemakers Stadion",
+      "address": "Akkerlaan 2",
+      "city": "Waalwijk",
+      "capacity": 7508,
+      "surface": "artificial turf",
+      "image": "https://media.api-sports.io/football/venues/1144.png"
+    }
+  },
+  {
+    "team": {
+      "id": 419,
+      "name": "Almere City FC",
+      "code": "ALM",
+      "country": "Netherlands",
+      "founded": 1932,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/419.png"
+    },
+    "venue": {
+      "id": 1141,
+      "name": "Yanmar Stadion",
+      "address": "Competitieweg 20",
+      "city": "Almere",
+      "capacity": 4501,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1141.png"
+    }
+  },
+  {
+    "team": {
+      "id": 426,
+      "name": "Sparta Rotterdam",
+      "code": "SPA",
+      "country": "Netherlands",
+      "founded": 1888,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/426.png"
+    },
+    "venue": {
+      "id": 10505,
+      "name": "Sparta-Stadion Het Kasteel",
+      "address": "Spartapark Noord 1",
+      "city": "Rotterdam",
+      "capacity": 11026,
+      "surface": "artificial turf",
+      "image": "https://media.api-sports.io/football/venues/10505.png"
+    }
+  },
+  {
+    "team": {
+      "id": 211,
+      "name": "Benfica",
+      "code": "BEN",
+      "country": "Portugal",
+      "founded": 1904,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue": {
+      "id": 1265,
+      "name": "Estádio do Sport Lisboa e Benfica (da Luz)",
+      "address": "Rua José Maria Nicolau",
+      "city": "Lisboa",
+      "capacity": 65647,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1265.png"
+    }
+  },
+  {
+    "team": {
+      "id": 212,
+      "name": "FC Porto",
+      "code": "POR",
+      "country": "Portugal",
+      "founded": 1893,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/212.png"
+    },
+    "venue": {
+      "id": 1286,
+      "name": "Estádio Do Dragão",
+      "address": "Via Futebol Clube do Porto",
+      "city": "Porto",
+      "capacity": 50399,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1286.png"
+    }
+  },
+  {
+    "team": {
+      "id": 215,
+      "name": "Moreirense",
+      "code": "MOR",
+      "country": "Portugal",
+      "founded": null,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/215.png"
+    },
+    "venue": {
+      "id": 1280,
+      "name": "Parque Desportivo Comendador Joaquim de Almeida Freitas",
+      "address": "Avenida Comendador Joaquim de Almeida Freitas",
+      "city": "Moreira de Cónegos",
+      "capacity": 13000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1280.png"
+    }
+  },
+  {
+    "team": {
+      "id": 216,
+      "name": "Portimonense",
+      "code": "POR",
+      "country": "Portugal",
+      "founded": 1914,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/216.png"
+    },
+    "venue": {
+      "id": 1285,
+      "name": "Estádio Municipal de Portimão",
+      "address": "Avenida Zeca Afonso Portimão",
+      "city": "Portimão",
+      "capacity": 9544,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1285.png"
+    }
+  },
+  {
+    "team": {
+      "id": 217,
+      "name": "SC Braga",
+      "code": "BRA",
+      "country": "Portugal",
+      "founded": 1921,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/217.png"
+    },
+    "venue": {
+      "id": 1291,
+      "name": "Estádio Municipal de Braga",
+      "address": "Avenida do Estádio",
+      "city": "Braga",
+      "capacity": 30286,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1291.png"
+    }
+  },
+  {
+    "team": {
+      "id": 222,
+      "name": "Boavista",
+      "code": null,
+      "country": "Portugal",
+      "founded": 1903,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/222.png"
+    },
+    "venue": {
+      "id": 1267,
+      "name": "Estádio do Bessa Século XXI",
+      "address": "Rua O Primeiro de Janeiro, Boavista",
+      "city": "Porto",
+      "capacity": 28263,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1267.png"
+    }
+  },
+  {
+    "team": {
+      "id": 223,
+      "name": "Chaves",
+      "code": "CHA",
+      "country": "Portugal",
+      "founded": 1949,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/223.png"
+    },
+    "venue": {
+      "id": 1273,
+      "name": "Estádio Municipal Eng. Manuel Branco Teixeira",
+      "address": "Avenida do Estádio Municipal",
+      "city": "Chaves",
+      "capacity": 12000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1273.png"
+    }
+  },
+  {
+    "team": {
+      "id": 224,
+      "name": "Guimaraes",
+      "code": "GUI",
+      "country": "Portugal",
+      "founded": 1922,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/224.png"
+    },
+    "venue": {
+      "id": 1295,
+      "name": "Estádio Dom Afonso Henriques",
+      "address": "Rua de São Gonçalo 505",
+      "city": "Guimarães",
+      "capacity": 30165,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1295.png"
+    }
+  },
+  {
+    "team": {
+      "id": 226,
+      "name": "Rio Ave",
+      "code": "RIO",
+      "country": "Portugal",
+      "founded": 1939,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/226.png"
+    },
+    "venue": {
+      "id": 1288,
+      "name": "Estádio do Rio Ave Futebol Clube",
+      "address": "Rua Dona Maria Pães Ribeiro",
+      "city": "Vila do Conde",
+      "capacity": 12815,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1288.png"
+    }
+  },
+  {
+    "team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "code": "SPO",
+      "country": "Portugal",
+      "founded": 1906,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue": {
+      "id": 1293,
+      "name": "Estádio José Alvalade",
+      "address": "Rua Professor Fernando da Fonseca",
+      "city": "Lisboa",
+      "capacity": 50466,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1293.png"
+    }
+  },
+  {
+    "team": {
+      "id": 230,
+      "name": "Estoril",
+      "code": "EST",
+      "country": "Portugal",
+      "founded": 1939,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/230.png"
+    },
+    "venue": {
+      "id": 1274,
+      "name": "Estádio António Coimbra da Mota",
+      "address": "Rua Dom Bosco",
+      "city": "Estoril",
+      "capacity": 8015,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1274.png"
+    }
+  },
+  {
+    "team": {
+      "id": 231,
+      "name": "Farense",
+      "code": "FAR",
+      "country": "Portugal",
+      "founded": 1910,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/231.png"
+    },
+    "venue": {
+      "id": 1290,
+      "name": "Estádio de São Lúis",
+      "address": "Rua do Sporting Club Farense",
+      "city": "Faro",
+      "capacity": 12000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1290.png"
+    }
+  },
+  {
+    "team": {
+      "id": 240,
+      "name": "Arouca",
+      "code": "ARO",
+      "country": "Portugal",
+      "founded": 1951,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/240.png"
+    },
+    "venue": {
+      "id": 1275,
+      "name": "Estádio Municipal de Arouca",
+      "address": "Afonso Pinto Magalhães Valdasna",
+      "city": "Arouca",
+      "capacity": 7000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1275.png"
+    }
+  },
+  {
+    "team": {
+      "id": 242,
+      "name": "Famalicao",
+      "code": "FAM",
+      "country": "Portugal",
+      "founded": 1931,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/242.png"
+    },
+    "venue": {
+      "id": 1276,
+      "name": "Estádio Municipal 22 de Junho",
+      "address": "Alameda dos Bargos",
+      "city": "Vila Nova de Famalicão",
+      "capacity": 8000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1276.png"
+    }
+  },
+  {
+    "team": {
+      "id": 762,
+      "name": "GIL Vicente",
+      "code": "VIC",
+      "country": "Portugal",
+      "founded": 1924,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/762.png"
+    },
+    "venue": {
+      "id": 2811,
+      "name": "Estádio Cidade de Barcelos",
+      "address": "strada Nacional 103, Vila Boa",
+      "city": "Barcelos",
+      "capacity": 12046,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/2811.png"
+    }
+  },
+  {
+    "team": {
+      "id": 810,
+      "name": "Vizela",
+      "code": "VIZ",
+      "country": "Portugal",
+      "founded": 1939,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/810.png"
+    },
+    "venue": {
+      "id": 2817,
+      "name": "Estádio Do Vizela",
+      "address": null,
+      "city": "Caldas de Vizela",
+      "capacity": 6565,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/2817.png"
+    }
+  },
+  {
+    "team": {
+      "id": 4716,
+      "name": "Casa Pia",
+      "code": "CAS",
+      "country": "Portugal",
+      "founded": 1920,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/4716.png"
+    },
+    "venue": {
+      "id": 1262,
+      "name": "Estádio Nacional",
+      "address": "Rua Monsanto",
+      "city": "Jamor, Oeiras",
+      "capacity": 38000,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1262.png"
+    }
+  },
+  {
+    "team": {
+      "id": 15130,
+      "name": "Estrela",
+      "code": null,
+      "country": "Portugal",
+      "founded": 2018,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/15130.png"
+    },
+    "venue": {
+      "id": 19187,
+      "name": "Estádio José Gomes",
+      "address": "Alameda Bonifácio Lázaro Lozano",
+      "city": "Amadora",
+      "capacity": 9288,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/19187.png"
+    }
+  },
+  {
+    "team": {
+      "id": 21595,
+      "name": "AVS",
+      "code": null,
+      "country": "Portugal",
+      "founded": null,
+      "national": false,
+      "logo": "https://media.api-sports.io/football/teams/21595.png"
+    },
+    "venue": {
+      "id": 1272,
+      "name": "Estádio Clube Desportivo das Aves",
+      "address": "Rua Luís Gonzaga Mendes de Carvalho 265",
+      "city": "Vila das Aves",
+      "capacity": 8560,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/1272.png"
+    }
+  }
+]
