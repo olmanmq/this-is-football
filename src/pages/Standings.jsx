@@ -8,7 +8,7 @@ export default function Standings() {
   const [selectedLeagueId, setSelectedLeagueId] = useState(null); // State to store the league ID
 
   useEffect(() => {
-    setSelectedLeagueId(leagueId); // Store the league ID in state
+    setSelectedLeagueId(leagueId); // Store the league ID in state.
   }, [leagueId]);
 
   useEffect(() => {
