@@ -8,21 +8,40 @@ export default function Standings() {
   const { leagueId } = useParams(); // Extract the 'leagueId' parameter from the URL
   const [standings, setStandings] = useState([]); // State to store standings
   const [topPlayers, setTopPlayers] = useState([]); // State to store top players' statistics
-  const [selectedLeagueId, setSelectedLeagueId] = useState(null); // State to store the league ID
+  const [currentSeason, setCurrentSeason] = useState(null); // State to store the current season
 
-  // Get the last season dynamically
-  const lastSeason = new Date().getFullYear() - 1;
-
+  // Fetch the current season for the league
   useEffect(() => {
-    setSelectedLeagueId(leagueId); // Store the league ID in state
-  }, [leagueId]);
-
-  // Fetch standings for the last season
-  useEffect(() => {
-    if (selectedLeagueId) {
+    if (leagueId) {
       const config = {
         method: "get",
-        url: `https://v3.football.api-sports.io/standings?league=${selectedLeagueId}&season=${lastSeason}`,
+        url: `https://v3.football.api-sports.io/leagues?id=${leagueId}`,
+        headers: {
+          "x-rapidapi-key": "9ea5e5ef8d94d9a2d45e6c30b216d5fa",
+          "x-rapidapi-host": "v3.football.api-sports.io",
+        },
+      };
+
+      axios(config)
+        .then((response) => {
+          const leagueData = response.data.response[0];
+          const currentSeasonData = leagueData.seasons.find(
+            (season) => season.current === true
+          );
+          setCurrentSeason(currentSeasonData.year); // Store the current season year
+        })
+        .catch((error) => {
+          console.error("Error fetching current season:", error);
+        });
+    }
+  }, [leagueId]);
+
+  // Fetch standings for the current season
+  useEffect(() => {
+    if (leagueId && currentSeason) {
+      const config = {
+        method: "get",
+        url: `https://v3.football.api-sports.io/standings?league=${leagueId}&season=${currentSeason}`,
         headers: {
           "x-rapidapi-key": "9ea5e5ef8d94d9a2d45e6c30b216d5fa",
           "x-rapidapi-host": "v3.football.api-sports.io",
@@ -38,45 +57,9 @@ export default function Standings() {
           console.error("Error fetching standings:", error);
         });
     }
-  }, [selectedLeagueId, lastSeason]);
+  }, [leagueId, currentSeason]);
 
-  // Fetch top players' statistics for the last season
-  useEffect(() => {
-    if (selectedLeagueId) {
-      const config = {
-        method: "get",
-        url: `https://v3.football.api-sports.io/players?league=${selectedLeagueId}&season=${lastSeason}`,
-        headers: {
-          "x-rapidapi-key": "9ea5e5ef8d94d9a2d45e6c30b216d5fa",
-          "x-rapidapi-host": "v3.football.api-sports.io",
-        },
-      };
-
-      axios(config)
-        .then((response) => {
-          console.log("Players API Response:", response.data); // Log the API response
-          const playersData = response.data.response.map((player) => ({
-            name: player.player.name,
-            team: player.statistics[0]?.team?.name ?? "Unknown Team",
-            goals: player.statistics[0]?.goals?.total ?? 0,
-            assists: player.statistics[0]?.goals?.assists ?? 0,
-            appearances: player.statistics[0]?.games?.appearances ?? 0,
-          }));
-
-          // Sort players by goals scored and take the top 10
-          const topPlayersData = playersData
-            .sort((a, b) => b.goals - a.goals) // Sort by goals in descending order
-            .slice(0, 10); // Take the top 10 players
-
-          setTopPlayers(topPlayersData); // Store top players' statistics in state
-        })
-        .catch((error) => {
-          console.error("Error fetching players' statistics:", error);
-        });
-    }
-  }, [selectedLeagueId, lastSeason]);
-
-  // Fetch players for all teams in the standings
+  // Fetch players' statistics for all teams in the league
   const fetchPlayersForAllTeams = async () => {
     const teams = standings.map((team) => team.team.id); // Get all team IDs from standings
     const allPlayers = [];
@@ -84,7 +67,7 @@ export default function Standings() {
     for (const teamId of teams) {
       const config = {
         method: "get",
-        url: `https://v3.football.api-sports.io/players?team=${teamId}&season=${lastSeason}`,
+        url: `https://v3.football.api-sports.io/players?team=${teamId}&season=${currentSeason}`,
         headers: {
           "x-rapidapi-key": "9ea5e5ef8d94d9a2d45e6c30b216d5fa",
           "x-rapidapi-host": "v3.football.api-sports.io",
@@ -115,10 +98,10 @@ export default function Standings() {
   };
 
   useEffect(() => {
-    if (selectedLeagueId && standings.length > 0) {
+    if (standings.length > 0 && currentSeason) {
       fetchPlayersForAllTeams(); // Fetch players for all teams in the league
     }
-  }, [selectedLeagueId, standings, lastSeason]);
+  }, [standings, currentSeason]);
 
   // Define columns for the standings DataTable
   const standingsColumns = [
@@ -181,7 +164,7 @@ export default function Standings() {
     <Layout>
       <div>
         {/* Standings Section */}
-        <h3>Standings (Last Season: {lastSeason})</h3>
+        <h3>Standings (Season: {currentSeason || "Loading..."})</h3>
         {standings.length > 0 ? (
           <DataTable
             columns={standingsColumns}
@@ -196,7 +179,7 @@ export default function Standings() {
         )}
 
         {/* Top Players' Statistics Section */}
-        <h3 className="mt-5">Top Players' Statistics (Last Season: {lastSeason})</h3>
+        <h3 className="mt-5">Top Players' Statistics (Season: {currentSeason || "Loading..."})</h3>
         {topPlayers.length > 0 ? (
           <DataTable
             columns={topPlayersColumns}
