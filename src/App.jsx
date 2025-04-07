@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage'
 import Standings from './pages/Standings'
 import Teams from './pages/Teams'
 import Updater from './pages/Updater'
+import RankingFifa from './pages/RankingFifa'
 
 
 
@@ -12,6 +13,7 @@ const routes = [
   { path: '/Standings/:leagueId', element: <Standings /> },
   { path: '/Teams', element: <Teams /> },
   { path: '/Updater', element: <Updater /> },
+  { path: '/RankingFifa', element: <RankingFifa /> },
 ]
 
 const router = createBrowserRouter(routes);
