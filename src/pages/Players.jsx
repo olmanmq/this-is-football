@@ -4,41 +4,44 @@ import Layout from "../components/Layout"; // Import the Layout component
 import axios from "axios";
 
 export default function Players() {
-  const { playerId } = useParams(); // Extract playerId from the URL
+  const { leagueId, playerId} = useParams(); // Extract playerId and leagueId from the URL
+
   const [playerStats, setPlayerStats] = useState(null); // State to store player statistics
   const [currentSeason, setCurrentSeason] = useState(null); // State to store the current season
   const [loading, setLoading] = useState(true); // State to manage loading state
 
-  // Fetch the current season
+  // Fetch the current season for the league
   useEffect(() => {
-    const config = {
-      method: "get",
-      url: `https://v3.football.api-sports.io/leagues?id=39`, // Replace with the desired league ID
-      headers: {
-        "x-rapidapi-key": "9ea5e5ef8d94d9a2d45e6c30b216d5fa",
-        "x-rapidapi-host": "v3.football.api-sports.io",
-      },
-    };
+    if (leagueId) {
+      const config = {
+        method: "get",
+        url: `https://v3.football.api-sports.io/leagues?id=${leagueId}`, // Use leagueId from the URL
+        headers: {
+          "x-rapidapi-key": "9ea5e5ef8d94d9a2d45e6c30b216d5fa",
+          "x-rapidapi-host": "v3.football.api-sports.io",
+        },
+      };
 
-    axios(config)
-      .then((response) => {
-        const leagueData = response.data.response[0];
-        const currentSeasonData = leagueData.seasons.find(
-          (season) => season.current === true
-        );
-        setCurrentSeason(currentSeasonData.year); // Store the current season year
-      })
-      .catch((error) => {
-        console.error("Error fetching current season:", error);
-      });
-  }, []);
+      axios(config)
+        .then((response) => {
+          const leagueData = response.data.response[0];
+          const currentSeasonData = leagueData.seasons.find(
+            (season) => season.current === true
+          );
+          setCurrentSeason(currentSeasonData.year); // Store the current season year
+        })
+        .catch((error) => {
+          console.error("Error fetching current season:", error);
+        });
+    }
+  }, [leagueId]);
 
   // Fetch player statistics
   useEffect(() => {
-    if (playerId && currentSeason) {
+    if (playerId && leagueId && currentSeason) {
       const config = {
         method: "get",
-        url: `https://v3.football.api-sports.io/players?id=${playerId}&season=${currentSeason}`,
+        url: `https://v3.football.api-sports.io/players?id=${playerId}&league=${leagueId}&season=${currentSeason}`, // Include leagueId and currentSeason
         headers: {
           "x-rapidapi-key": "9ea5e5ef8d94d9a2d45e6c30b216d5fa",
           "x-rapidapi-host": "v3.football.api-sports.io",
@@ -57,7 +60,7 @@ export default function Players() {
           setLoading(false); // Set loading to false after the API call
         });
     }
-  }, [playerId, currentSeason]);
+  }, [playerId, leagueId, currentSeason]);
 
   return (
     <Layout>

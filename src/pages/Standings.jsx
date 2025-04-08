@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom"; // Import useNavigate
 import axios from "axios";
 import DataTable from "react-data-table-component"; // Import DataTable
 import Layout from "../components/Layout"; // Import the Layout component
 
 export default function Standings() {
   const { leagueId } = useParams(); // Extract the 'leagueId' parameter from the URL
+  const navigate = useNavigate(); // Initialize useNavigate
   const [standings, setStandings] = useState([]); // State to store standings
   const [currentSeason, setCurrentSeason] = useState(null); // State to store the current season
   const [topPlayers, setTopPlayers] = useState([]); // State to store top players
@@ -75,6 +76,7 @@ export default function Standings() {
         .then((response) => {
           console.log("Top Players API Response:", response.data); // Log the API response
           const playersData = response.data.response.map((player) => ({
+            id: player.player.id, // Include the player's ID
             name: player.player.name,
             photo: player.player.photo, // Include the player's photo
             team: player.statistics[0]?.team?.name ?? "Unknown Team",
@@ -156,6 +158,27 @@ export default function Standings() {
       name: "Appearances",
       selector: (row) => row.appearances,
       sortable: true,
+    },
+    {
+      name: "Action",
+      selector: (row) => (
+        <button
+          onClick={() =>
+            navigate(`/Players/${leagueId}/${row.id}`)
+          }
+          style={{
+            padding: "5px 10px",
+            backgroundColor: "#007bff",
+            color: "#fff",
+            border: "none",
+            borderRadius: "5px",
+            cursor: "pointer",
+          }}
+        >
+          Stats
+        </button>
+      ),
+      sortable: false,
     },
   ];
 

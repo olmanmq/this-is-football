@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
               alt="Football Vite Logo"
               style={{ width: "100px", height: "100px", marginRight: "10px" }} // Adjust size as needed
             />
-            Football Vite
+            THIS IS FOOTBALL
           </a>
           <button
             className="navbar-toggler"
@@ -29,33 +29,7 @@ const Layout = ({ children }) => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" href="/">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/teams">
-                  Teams
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/matches">
-                  Matches
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/statistics">
-                  Statistics
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/Standings">
-                  Standings
-                </a>
-              </li>
-            </ul>
+            
           </div>
         </div>
       </nav>

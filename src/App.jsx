@@ -15,7 +15,7 @@ const routes = [
   { path: '/Teams', element: <Teams /> },
   { path: '/Updater', element: <Updater /> },
   { path: '/RankingFifa', element: <RankingFifa /> },
-  { path: '/Players/:playerId', element: <Players /> },
+  { path: '/Players/:leagueId/:playerId', element: <Players /> },
 
 ]
 
