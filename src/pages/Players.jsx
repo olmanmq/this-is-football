@@ -4,7 +4,7 @@ import Layout from "../components/Layout"; // Import the Layout component
 import axios from "axios";
 
 export default function Players() {
-  const { leagueId, playerId} = useParams(); // Extract playerId and leagueId from the URL
+  const { playerId, leagueId } = useParams(); // Extract playerId and leagueId from the URL
 
   const [playerStats, setPlayerStats] = useState(null); // State to store player statistics
   const [currentSeason, setCurrentSeason] = useState(null); // State to store the current season
@@ -77,10 +77,21 @@ export default function Players() {
             />
             <p><strong>Age:</strong> {playerStats.player.age}</p>
             <p><strong>Nationality:</strong> {playerStats.player.nationality}</p>
-            <p><strong>Team:</strong> {playerStats.statistics[0]?.team?.name || "N/A"}</p>
-            <p><strong>Appearances:</strong> {playerStats.statistics[0]?.games?.appearances || 0}</p>
-            <p><strong>Goals:</strong> {playerStats.statistics[0]?.goals?.total || 0}</p>
-            <p><strong>Assists:</strong> {playerStats.statistics[0]?.goals?.assists || 0}</p>
+
+            <h2>Statistics</h2>
+            {playerStats.statistics.map((stat, index) => (
+              <div key={index} style={{ marginBottom: "20px" }}>
+                <h3>Team: {stat.team.name}</h3>
+                <p><strong>League:</strong> {stat.league.name}</p>
+                <p><strong>Season:</strong> {stat.league.season}</p>
+                <p><strong>Appearances:</strong> {stat.games.appearances || 0}</p>
+                <p><strong>Minutes Played:</strong> {stat.games.minutes || 0}</p>
+                <p><strong>Goals:</strong> {stat.goals.total || 0}</p>
+                <p><strong>Assists:</strong> {stat.goals.assists || 0}</p>
+                <p><strong>Yellow Cards:</strong> {stat.cards.yellow || 0}</p>
+                <p><strong>Red Cards:</strong> {stat.cards.red || 0}</p>
+              </div>
+            ))}
           </div>
         ) : (
           <p>No player statistics found.</p>

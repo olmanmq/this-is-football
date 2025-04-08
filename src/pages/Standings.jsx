@@ -83,8 +83,8 @@ export default function Standings() {
             goals: player.statistics[0]?.goals?.total ?? 0,
             assists: player.statistics[0]?.goals?.assists ?? 0,
             appearances: player.statistics[0]?.games?.appearences ?? 0,
+            fullStatistics: player.statistics, // Include full statistics
           }));
-          console.log("Players data:", playersData); // Log the processed players data
           setTopPlayers(playersData); // Store top players in state
         })
         .catch((error) => {
@@ -92,6 +92,58 @@ export default function Standings() {
         });
     }
   }, [leagueId, currentSeason]);
+
+  // Fetch team story from Wikipedia
+  const fetchTeamStory = async (teamName) => {
+    try {
+      const response = await axios.get(
+        `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(teamName)}`
+      );
+
+      // Check if the response is a disambiguation page
+      if (response.data.type === "disambiguation") {
+        console.warn(`Disambiguation page found for ${teamName}. Attempting to resolve...`);
+
+        // Retry with "football club" appended to the team name
+        const retryResponse = await axios.get(
+          `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(teamName + " football club")}`
+        );
+
+        // Return the retry response if successful
+        if (retryResponse.data.extract) {
+          return retryResponse.data.extract;
+        }
+
+        // Attempt to fetch the first relevant link from the disambiguation page
+        if (response.data.content_urls?.desktop?.page) {
+          const disambiguationPageUrl = response.data.content_urls.desktop.page;
+
+          // Fetch the disambiguation page HTML to extract links
+          const disambiguationResponse = await axios.get(disambiguationPageUrl);
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(disambiguationResponse.data, "text/html");
+
+          // Extract the first link from the disambiguation page
+          const firstLink = doc.querySelector("a[href^='/wiki/']");
+          if (firstLink) {
+            const correctArticleTitle = firstLink.getAttribute("href").replace("/wiki/", "");
+            const correctArticleResponse = await axios.get(
+              `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(correctArticleTitle)}`
+            );
+            return correctArticleResponse.data.extract || "No story available.";
+          }
+        }
+
+        return "Disambiguation page found, but no relevant article could be resolved.";
+      }
+
+      // Return the summary if it's not a disambiguation page
+      return response.data.extract || "No story available.";
+    } catch (error) {
+      console.error(`Error fetching story for ${teamName}:`, error);
+      return "No story available.";
+    }
+  };
 
   // Define columns for the standings DataTable
   const standingsColumns = [
@@ -159,26 +211,58 @@ export default function Standings() {
       selector: (row) => row.appearances,
       sortable: true,
     },
+  ];
+
+  // Expandable row content for players
+  const ExpandablePlayerRow = ({ data }) => {
+    return (
+      <div style={{ padding: "10px", backgroundColor: "#f9f9f9" }}>
+        <h4>Full Statistics for {data.name}</h4>
+        {data.fullStatistics.map((stat, index) => (
+          <div key={index} style={{ marginBottom: "10px" }}>
+            <p><strong>Team:</strong> {stat.team.name}</p>
+            <p><strong>League:</strong> {stat.league.name}</p>
+            <p><strong>Season:</strong> {stat.league.season}</p>
+            <p><strong>Appearances:</strong> {stat.games.appearences || 0}</p>
+            <p><strong>Minutes Played:</strong> {stat.games.minutes || 0}</p>
+            <p><strong>Goals:</strong> {stat.goals.total || 0}</p>
+            <p><strong>Assists:</strong> {stat.goals.assists || 0}</p>
+            <p><strong>Yellow Cards:</strong> {stat.cards.yellow || 0}</p>
+            <p><strong>Red Cards:</strong> {stat.cards.red || 0}</p>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
+  // Expandable row content
+  const ExpandableRow = ({ data }) => {
+    const [story, setStory] = useState("Loading...");
+
+    useEffect(() => {
+      const fetchStory = async () => {
+        const teamStory = await fetchTeamStory(data.team.name);
+        setStory(teamStory);
+      };
+      fetchStory();
+    }, [data.team.name]);
+
+    return (
+      <div style={{ padding: "10px", backgroundColor: "#f9f9f9" }}>
+        <h4>{data.team.name} Story</h4>
+        <p>{story}</p>
+      </div>
+    );
+  };
+
+  // Conditional row styling for relegated teams
+  const conditionalRowStyles = [
     {
-      name: "Action",
-      selector: (row) => (
-        <button
-          onClick={() =>
-            navigate(`/Players/${leagueId}/${row.id}`)
-          }
-          style={{
-            padding: "5px 10px",
-            backgroundColor: "#007bff",
-            color: "#fff",
-            border: "none",
-            borderRadius: "5px",
-            cursor: "pointer",
-          }}
-        >
-          Stats
-        </button>
-      ),
-      sortable: false,
+      when: (row) => row.rank > 17, // Assuming ranks greater than 17 are relegated
+      style: {
+        backgroundColor: "#ffcccc", // Light red background
+        color: "#ff0000", // Red text
+      },
     },
   ];
 
@@ -195,6 +279,9 @@ export default function Standings() {
             responsive
             striped
             pagination={false} // Disable pagination
+            conditionalRowStyles={conditionalRowStyles} // Apply conditional row styles
+            expandableRows // Enable expandable rows
+            expandableRowsComponent={ExpandableRow} // Component for expanded content
           />
         ) : (
           <p>Loading standings...</p>
@@ -210,6 +297,8 @@ export default function Standings() {
             responsive
             striped
             pagination={false} // Disable pagination
+            expandableRows // Enable expandable rows
+            expandableRowsComponent={ExpandablePlayerRow} // Component for expanded content
           />
         ) : (
           <p>Loading top players...</p>
