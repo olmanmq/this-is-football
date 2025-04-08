@@ -7,8 +7,8 @@ import Layout from "../components/Layout"; // Import the Layout component
 export default function Standings() {
   const { leagueId } = useParams(); // Extract the 'leagueId' parameter from the URL
   const [standings, setStandings] = useState([]); // State to store standings
-  const [topPlayers, setTopPlayers] = useState([]); // State to store top players' statistics
   const [currentSeason, setCurrentSeason] = useState(null); // State to store the current season
+  const [topPlayers, setTopPlayers] = useState([]); // State to store top players
 
   // Fetch the current season for the league
   useEffect(() => {
@@ -59,49 +59,37 @@ export default function Standings() {
     }
   }, [leagueId, currentSeason]);
 
-  // Fetch players' statistics for all teams in the league
-  const fetchPlayersForAllTeams = async () => {
-    const teams = standings.map((team) => team.team.id); // Get all team IDs from standings
-    const allPlayers = [];
-
-    for (const teamId of teams) {
+  // Fetch top players for the current league and season
+  useEffect(() => {
+    if (leagueId && currentSeason) {
       const config = {
         method: "get",
-        url: `https://v3.football.api-sports.io/players?team=${teamId}&season=${currentSeason}`,
+        url: `https://v3.football.api-sports.io/players/topscorers?league=${leagueId}&season=${currentSeason}`,
         headers: {
           "x-rapidapi-key": "9ea5e5ef8d94d9a2d45e6c30b216d5fa",
           "x-rapidapi-host": "v3.football.api-sports.io",
         },
       };
 
-      try {
-        const response = await axios(config);
-        const playersData = response.data.response.map((player) => ({
-          name: player.player.name,
-          team: player.statistics[0]?.team?.name ?? "Unknown Team",
-          goals: player.statistics[0]?.goals?.total ?? 0,
-          assists: player.statistics[0]?.goals?.assists ?? 0,
-          appearances: player.statistics[0]?.games?.appearances ?? 0,
-        }));
-        allPlayers.push(...playersData);
-      } catch (error) {
-        console.error(`Error fetching players for team ${teamId}:`, error);
-      }
+      axios(config)
+        .then((response) => {
+          console.log("Top Players API Response:", response.data); // Log the API response
+          const playersData = response.data.response.map((player) => ({
+            name: player.player.name,
+            photo: player.player.photo, // Include the player's photo
+            team: player.statistics[0]?.team?.name ?? "Unknown Team",
+            goals: player.statistics[0]?.goals?.total ?? 0,
+            assists: player.statistics[0]?.goals?.assists ?? 0,
+            appearances: player.statistics[0]?.games?.appearences ?? 0,
+          }));
+          console.log("Players data:", playersData); // Log the processed players data
+          setTopPlayers(playersData); // Store top players in state
+        })
+        .catch((error) => {
+          console.error("Error fetching top players:", error);
+        });
     }
-
-    // Sort all players by goals scored and take the top 10
-    const topPlayersData = allPlayers
-      .sort((a, b) => b.goals - a.goals)
-      .slice(0, 10);
-
-    setTopPlayers(topPlayersData); // Store top players' statistics in state
-  };
-
-  useEffect(() => {
-    if (standings.length > 0 && currentSeason) {
-      fetchPlayersForAllTeams(); // Fetch players for all teams in the league
-    }
-  }, [standings, currentSeason]);
+  }, [leagueId, currentSeason]);
 
   // Define columns for the standings DataTable
   const standingsColumns = [
@@ -131,8 +119,19 @@ export default function Standings() {
     },
   ];
 
-  // Define columns for the top players' statistics DataTable
+  // Define columns for the top players DataTable
   const topPlayersColumns = [
+    {
+      name: "Photo",
+      selector: (row) => (
+        <img
+          src={row.photo}
+          alt={row.name}
+          style={{ width: "40px", height: "40px", borderRadius: "50%" }}
+        />
+      ),
+      sortable: false,
+    },
     {
       name: "Name",
       selector: (row) => row.name,
@@ -178,8 +177,8 @@ export default function Standings() {
           <p>Loading standings...</p>
         )}
 
-        {/* Top Players' Statistics Section */}
-        <h3 className="mt-5">Top Players' Statistics (Season: {currentSeason || "Loading..."})</h3>
+        {/* Top Players Section */}
+        <h3 className="mt-5">Top Players (Season: {currentSeason || "Loading..."})</h3>
         {topPlayers.length > 0 ? (
           <DataTable
             columns={topPlayersColumns}
@@ -190,7 +189,7 @@ export default function Standings() {
             pagination={false} // Disable pagination
           />
         ) : (
-          <p>Loading top players' statistics...</p>
+          <p>Loading top players...</p>
         )}
       </div>
     </Layout>
