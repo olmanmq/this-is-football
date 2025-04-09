@@ -217,7 +217,7 @@ export default function Standings() {
   const ExpandablePlayerRow = ({ data }) => {
     return (
       <div style={{ padding: "10px", backgroundColor: "#f9f9f9" }}>
-        <h4>Full Statistics for {data.name}</h4>
+        <h4>{data.name}</h4>
         {data.fullStatistics.map((stat, index) => (
           <div key={index} style={{ marginBottom: "10px" }}>
             <p><strong>Team:</strong> {stat.team.name}</p>
