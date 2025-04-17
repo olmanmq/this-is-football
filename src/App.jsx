@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async'; // Import HelmetProvider
+import { HelmetProvider } from 'react-helmet'; // Import HelmetProvider
 import './App.css';
 import HomePage from './pages/HomePage';
 import Standings from './pages/Standings';
