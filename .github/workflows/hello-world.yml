@@ -1,0 +1,12 @@
+name: Hola Mundo
+
+on:
+  workflow_dispatch:   # Permite ejecutarlo manualmente
+  push:                # También correrá si haces push
+
+jobs:
+  hola:
+    runs-on: ubuntu-latest   # Runners gratuitos en repos públicos
+    steps:
+      - name: Mensaje
+        run: echo "Hola mundo desde GitHub Actions 🎉⚽"
