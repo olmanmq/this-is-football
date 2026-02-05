@@ -1,12 +1,13 @@
-name: Hola Mundo
+name: CI - Hola Mundo
 
 on:
-  workflow_dispatch:   # Permite ejecutarlo manualmente
-  push:                # También correrá si haces push
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
 
 jobs:
   hola:
-    runs-on: ubuntu-latest   # Runners gratuitos en repos públicos
+    runs-on: ubuntu-latest
     steps:
       - name: Mensaje
-        run: echo "Hola mundo desde GitHub Actions 🎉⚽"
+        run: echo "Hola mundo desde un Pull Request 👋✅"
